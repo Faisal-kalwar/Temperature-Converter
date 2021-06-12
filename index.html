@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Conversion</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="App.js"></script>
+</head>
+<body>
+    <form>
+        <div class="temp-form">
+            <h1>Temperature Converter</h1>
+            <h2>Celcius: "C" Fahrenheit: "F"</h2>
+            Temperature:
+            <input type="text" id="tempinput" />
+            <!-- <br /> -->
+            <div class="custom-select">
+                <select size="2" id="initialtemp">
+                    <option value="">Units&hellip;</option>
+                    <option value="c" selected>C</option>
+                    <option value="f">F</option>
+                </select>
+            </div>
+            <br/>
+            <br/>
+            Result:
+            <input type="text" id="result"/>
+            <button type="button" onclick="convert()">Convert</button>
+        </div>
+    </form>
+    
+    
+</body>
+</html>
